@@ -18,3 +18,20 @@
 
 ```sh
 git clone https://github.com/balguzh1nov/testovoe_blog_laravel
+
+cd blog
+
+composer install
+
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=blog
+DB_USERNAME=postgres
+DB_PASSWORD=your_password
+
+php artisan key:generate
+
+php artisan migrate --seed
+
+php artisan serve
