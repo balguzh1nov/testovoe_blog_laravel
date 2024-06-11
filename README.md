@@ -17,4 +17,4 @@
 Клонируйте репозиторий на ваш компьютер:
 
 ```sh
-git clone <repository_url>
+git clone <https://github.com/balguzh1nov/testovoe_blog_laravel>
